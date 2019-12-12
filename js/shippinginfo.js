@@ -1,6 +1,1 @@
-require.config(requireConfig);
-require(['jquery', 'tmpl', 'i18n', 'bootstrap', 'common'], function ($, tmpl, i18n, bootstrap, common) {
-	console.log("shippinginfo.js");
-
-	common.initLoginStatus();
-});
+require.config(requireConfig),require(["jquery","tmpl","i18n","bootstrap","common"],function(i,o,n,e,r){console.log("shippinginfo.js"),r.initLoginStatus()});
