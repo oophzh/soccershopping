@@ -1,0 +1,2 @@
+"use strict";
+require.config(requireConfig),require(["jquery","tmpl","i18n","bootstrap","common"],function(i,e,m,t,n){n.initLoginStatus(),function(){var e=[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}];i("#recommend_image_list").html(i("#userImageTempl").tmpl(e)),i("#recommend_image_list .image-item").bind("click",function(){i("#recommend_image_list .image-item").removeClass("selected"),i(this).addClass("selected")})}(),function(){i(".loading-mask").addClass("hide"),i(".main-wrap").removeClass("invisibility"),i("footer").removeClass("invisibility")}()});
